@@ -1,0 +1,57 @@
+.main {
+    padding-top: 55px;
+    .container {
+        position: relative;
+    }
+}
+.main__overhead,
+.main__title,
+.main__subtitle {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+.main__overhead {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.main__title {
+    font-size: 60px;
+}
+.main__subtitle {
+    font-size: 20px;
+}
+.main__header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100vh - 75%);
+}
+.main__social__icons {
+    color: $black;
+    padding: 20px 0;
+    text-align: center;
+}
+.main__social__icon__item {
+    display: inline-block;
+    padding: 0 15px;
+}
+.main__social__link {
+    i {
+        color: $black;
+        font-size: 32px;
+        transition: all .1s;
+        &:hover {
+            text-shadow: 1px 1px 24px #000;
+        }
+    }
+}
+.main__buttons {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25px;
+    button {
+        margin: 0 20px;
+    }
+}
