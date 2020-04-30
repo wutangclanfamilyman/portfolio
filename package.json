@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "page-scroll-to-id": "^1.6.3",
     "slick-carousel": "^1.8.1"
   }
